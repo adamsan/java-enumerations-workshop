@@ -42,6 +42,7 @@ Can be represented by a graph, or a state transition table.
 4. Create a java program, that implements below state machine:
 ```mermaid
 stateDiagram-v2
+    direction LR
 [*] --> Start
 Start --> A :  a
 A --> 2A : a
